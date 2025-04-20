@@ -56,9 +56,9 @@ export default function Textform(props) {
         </textarea>
         <button className="btn btn-primary mx-1 my-2" onClick={handleUpClick}>Change to upper case</button>
         <button className="btn btn-primary mx-1 my-2 " onClick={handelloclick} >Change to lower case</button>
-        <button className="btn btn-primary mx-1 my-2" onClick={handlevowelclick}>Number of vowels</button>
-        <button className="btn btn-primary mx-1 my 2" onClick={handleconsonentclick}>Number of consonets</button>
-        <button className="btn btn-primary mx-1 my 2 " onClick={handelclear}>Clear</button>
+        <button className="btn btn-primary mx-1" onClick={handlevowelclick}>Number of vowels</button>
+        <button className="btn btn-primary mx-1" onClick={handleconsonentclick}>Number of consonets</button>
+        <button className="btn btn-primary mx-1 " onClick={handelclear}>Clear</button>
       </div>
     </div>
     <div  className='container my-3'>
